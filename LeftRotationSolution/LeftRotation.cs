@@ -11,9 +11,8 @@ namespace LeftRotationSolution
 
             for (int i = 1; i <= d; i++)
             {
-                var tmp = list[0];
+                list.Add(list[0]);
                 list.RemoveAt(0);
-                list.Add(tmp);
             }
             
             return list.ToArray();
