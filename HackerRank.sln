@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2DArray", "2DArray", "{C7B7709D-8607-4CF8-8C7E-DA1FBD37FA50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDArraySolution", "TwoDArraySolution\TwoDArraySolution.csproj", "{8743DFDD-87F8-454D-BBF2-FD5AD748816B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDArrayTests", "TwoDArrayTests\TwoDArrayTests.csproj", "{71D5DB78-7903-4759-9068-59BF72D039BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8743DFDD-87F8-454D-BBF2-FD5AD748816B} = {C7B7709D-8607-4CF8-8C7E-DA1FBD37FA50}
+		{71D5DB78-7903-4759-9068-59BF72D039BD} = {C7B7709D-8607-4CF8-8C7E-DA1FBD37FA50}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8743DFDD-87F8-454D-BBF2-FD5AD748816B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8743DFDD-87F8-454D-BBF2-FD5AD748816B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8743DFDD-87F8-454D-BBF2-FD5AD748816B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8743DFDD-87F8-454D-BBF2-FD5AD748816B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D5DB78-7903-4759-9068-59BF72D039BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D5DB78-7903-4759-9068-59BF72D039BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D5DB78-7903-4759-9068-59BF72D039BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D5DB78-7903-4759-9068-59BF72D039BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
