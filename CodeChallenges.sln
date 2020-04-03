@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29924.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.Solutions", "HackerRank.Solutions\HackerRank.Solutions.csproj", "{1543193B-4C37-4415-BCDB-4E851EFC84F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank.Solutions", "HackerRank.Solutions\HackerRank.Solutions.csproj", "{1543193B-4C37-4415-BCDB-4E851EFC84F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.UnitTests", "HackerRank.UnitTests\HackerRank.UnitTests.csproj", "{7ED4EF0C-4731-48A3-B9F0-E935EA4ADED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank.MSUnitTests", "HackerRank.UnitTests\HackerRank.MSUnitTests.csproj", "{7ED4EF0C-4731-48A3-B9F0-E935EA4ADED8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HackerRank", "HackerRank", "{8B8CDED7-FBDE-43C3-A4D1-7847F9C692BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1543193B-4C37-4415-BCDB-4E851EFC84F9} = {8B8CDED7-FBDE-43C3-A4D1-7847F9C692BC}
+		{7ED4EF0C-4731-48A3-B9F0-E935EA4ADED8} = {8B8CDED7-FBDE-43C3-A4D1-7847F9C692BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A02867EC-B629-42FA-8E18-CC78902E73C6}
