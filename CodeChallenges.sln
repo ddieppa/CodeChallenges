@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank.MSUnitTests", "H
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HackerRank", "HackerRank", "{8B8CDED7-FBDE-43C3-A4D1-7847F9C692BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.xUnitTests", "HackerRank.xUnitTests\HackerRank.xUnitTests.csproj", "{0E86CA18-AF5C-42FF-B66D-4FF3E9BCC812}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{7ED4EF0C-4731-48A3-B9F0-E935EA4ADED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ED4EF0C-4731-48A3-B9F0-E935EA4ADED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ED4EF0C-4731-48A3-B9F0-E935EA4ADED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E86CA18-AF5C-42FF-B66D-4FF3E9BCC812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E86CA18-AF5C-42FF-B66D-4FF3E9BCC812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E86CA18-AF5C-42FF-B66D-4FF3E9BCC812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E86CA18-AF5C-42FF-B66D-4FF3E9BCC812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1543193B-4C37-4415-BCDB-4E851EFC84F9} = {8B8CDED7-FBDE-43C3-A4D1-7847F9C692BC}
 		{7ED4EF0C-4731-48A3-B9F0-E935EA4ADED8} = {8B8CDED7-FBDE-43C3-A4D1-7847F9C692BC}
+		{0E86CA18-AF5C-42FF-B66D-4FF3E9BCC812} = {8B8CDED7-FBDE-43C3-A4D1-7847F9C692BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A02867EC-B629-42FA-8E18-CC78902E73C6}
