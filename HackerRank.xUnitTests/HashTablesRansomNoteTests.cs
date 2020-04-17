@@ -32,6 +32,7 @@ namespace HackerRank.xUnitTests
         }
         
         [Theory]
+        [Trait("Category", "Internal")]
         [MemberData(nameof(InternalHashTablesRansomNoteTestData.TestData), MemberType = typeof(InternalHashTablesRansomNoteTestData))]
         public void CheckMagazine_InternalTestData(string expected, string[] magazine, string[] note)
         {
@@ -40,7 +41,7 @@ namespace HackerRank.xUnitTests
             //Assert
             Assert.Equal(expected, actual);
         }
-        
+
         [Theory]
         [MemberData(nameof(ExternalHashTablesRansomNoteTestData.TestData), MemberType = typeof(ExternalHashTablesRansomNoteTestData))]
         public void CheckMagazine_ExternalTestData(string expected, string[] magazine, string[] note)

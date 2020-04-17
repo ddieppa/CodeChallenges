@@ -23,7 +23,7 @@ namespace HackerRank.xUnitTests
                 };
                 yield return new object[]
                 {
-                    "No", "two times three is not four", "two times two is four"
+                    "No", "two times three is not four".Split(' '), "two times two is four".Split(' ')
                 };
                 yield return new object[]
                 {
